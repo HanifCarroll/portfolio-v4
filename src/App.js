@@ -6,11 +6,13 @@ import {
   SocialIcons
 } from "sections";
 import { Footer } from "./components/Footer/index";
+import { HomeSection } from "./sections/home/HomeSection";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <HomeSection />
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
