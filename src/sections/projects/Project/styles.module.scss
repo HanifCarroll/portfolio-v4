@@ -1,3 +1,25 @@
+.container {
+  text-align: center;
+  padding: 50px 0;
+  border: 2px solid blue;
+}
+
 .image {
   height: 300px;
+}
+
+.title {
+}
+
+.description {
+  line-height: 2;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.content-container {
+}
+
+.button-container {
+  margin-top: 50px;
 }
