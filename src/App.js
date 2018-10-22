@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Projects } from "sections";
+import { ProjectsSection, SocialIcons } from "sections";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Projects />
+        <ProjectsSection />
+        <SocialIcons />
       </div>
     );
   }
