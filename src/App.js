@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { AboutSection, ProjectsSection, SocialIcons } from "sections";
+import {
+  AboutSection,
+  SkillsSection,
+  ProjectsSection,
+  SocialIcons
+} from "sections";
 import { Footer } from "./components/Footer/index";
 
 class App extends Component {
@@ -7,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <AboutSection />
+        <SkillsSection />
         <ProjectsSection />
         <SocialIcons />
         <Footer />
