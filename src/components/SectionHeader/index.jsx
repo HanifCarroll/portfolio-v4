@@ -4,8 +4,8 @@ import styles from "./styles.module.scss";
 export const SectionHeader = ({ headingText, subheadingText }) => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.heading}>{headingText}</h3>
-      <p className={styles.subheading}>{subheadingText}</p>
+      <h1 className={styles.heading}>{headingText}</h1>
+      <h2 className={styles.subheading}>{subheadingText}</h2>
     </div>
   );
 };

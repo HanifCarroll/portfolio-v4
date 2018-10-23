@@ -5,7 +5,13 @@ export class HomeSection extends React.Component {
   render() {
     return (
       <Jumbotron className={styles.container}>
-        <img src={require("../profile.jpg")} alt="Hanif Carroll" />
+        <div className={styles["image-container"]}>
+          <img
+            className="img-fluid"
+            src={require("../profile.jpg")}
+            alt="Hanif Carroll"
+          />
+        </div>
         <div className={styles["text-container"]}>
           <h1 className={styles.heading}>Hanif Carroll</h1>
 

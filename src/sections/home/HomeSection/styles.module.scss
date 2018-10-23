@@ -6,11 +6,9 @@
   }
 }
 
-img {
-  width: 100%;
-
+.image-container {
   @media (min-width: 700px) {
-    max-width: 50%;
+    width: 50%;
   }
 }
 
@@ -40,8 +38,6 @@ img {
 }
 
 .subheading {
-  text-transform: uppercase;
-
   color: rgb(110, 193, 228);
   @media (min-width: 700px) {
     font-size: 1.5em;
