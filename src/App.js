@@ -7,18 +7,21 @@ import {
   ContactSection
 } from "sections";
 import { Footer, Header } from "components";
+import { Container } from "reactstrap";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <HomeSection />
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
-        <Footer />
+        <Container>
+          <Header />
+          <HomeSection />
+          <AboutSection />
+          <SkillsSection />
+          <ProjectsSection />
+          <ContactSection />
+          <Footer />
+        </Container>
       </div>
     );
   }
