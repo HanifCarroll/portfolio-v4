@@ -10,7 +10,7 @@ export class Projects extends React.Component {
 
   renderProjects = () => {
     return this.state.projects.map(project => (
-      <div className={styles.container}>
+      <div key={project.title} className={styles.container}>
         <Project
           key={project.title}
           title={project.title}

@@ -13,7 +13,7 @@ export const SocialIcons = () => {
   return (
     <div className={styles.container}>
       {urls.map(url => (
-        <SocialIcon url={url} className={styles.icon} />
+        <SocialIcon key={url} url={url} className={styles.icon} />
       ))}
     </div>
   );

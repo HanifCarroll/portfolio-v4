@@ -1,6 +1,10 @@
 .container {
   margin: 0 auto;
-  text-align: center;
+
   line-height: 2;
-  width: 60%;
+  width: 80%;
+
+  @media (min-width: 700px) {
+    width: 60%;
+  }
 }

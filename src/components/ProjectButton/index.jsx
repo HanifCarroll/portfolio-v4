@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export const ProjectButton = ({ url, text }) => {
   return (
-    <a className={styles.button} href={url}>
+    <a className={`btn btn-outline-dark ${styles.button}`} href={url}>
       {text}
     </a>
   );

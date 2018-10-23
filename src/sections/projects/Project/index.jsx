@@ -1,21 +1,9 @@
 import React from "react";
-
+import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 import styles from "./styles.module.scss";
 import { ProjectButton } from "components";
 
 export class Project extends React.Component {
-  renderDetails = () => {
-    const { title, description, image } = this.props;
-
-    return (
-      <div className={styles["content-container"]}>
-        <img className={styles.image} src={image} alt={title} />
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
-      </div>
-    );
-  };
-
   renderButtons = () => {
     const { url, github } = this.props;
 
@@ -27,12 +15,22 @@ export class Project extends React.Component {
     );
   };
 
-  render() {
+  renderCard = () => {
+    const { title, description, image } = this.props;
+
     return (
-      <div className={styles.container}>
-        {this.renderDetails()}
-        {this.renderButtons()}
-      </div>
+      <Card className={styles.card}>
+        <CardImg top width="100%" src={image} alt={`Screenshot of ${title}`} />
+        <CardBody>
+          <CardTitle>{title}</CardTitle>
+          <CardText>{description}</CardText>
+          {this.renderButtons()}
+        </CardBody>
+      </Card>
     );
+  };
+
+  render() {
+    return <div>{this.renderCard()}</div>;
   }
 }

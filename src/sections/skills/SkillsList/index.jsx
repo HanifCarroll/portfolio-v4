@@ -21,7 +21,7 @@ const renderList = (heading, list) => {
       <h3>{heading}</h3>
       <ul>
         {list.map(item => (
-          <li>{item}</li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
     </div>
