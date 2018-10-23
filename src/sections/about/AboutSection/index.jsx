@@ -5,7 +5,7 @@ import { AboutText } from "../AboutText";
 export class AboutSection extends React.Component {
   render() {
     return (
-      <div>
+      <div id="about">
         <SectionHeader headingText="About" subheadingText="My Journey" />
         <AboutText />
       </div>

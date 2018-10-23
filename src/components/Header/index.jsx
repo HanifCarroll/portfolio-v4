@@ -13,7 +13,7 @@ export class Header extends React.Component {
         largeMenuClassName={styles.large}
         smallMenuClassName={styles.small}
         menu={
-          <div className={styles.container}>
+          <div id="nav" className={styles.container}>
             <ul>
               <li>
                 <a href="#home">Home</a>

@@ -1,14 +1,37 @@
 .container {
-  display: flex;
+  display: block;
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
+  text-align: center;
+
+  @media (min-width: 500px) {
+    margin: 100px auto 0 auto;
+    display: flex;
+  }
 }
 
 img {
-  max-width: 45%;
+  max-width: 90%;
+
+  @media (min-width: 500px) {
+    max-width: 45%;
+  }
 }
 
 .text-container {
-  margin: auto 0;
-  width: 45%;
+  @media (min-width: 500px) {
+    text-align: left;
+    margin: auto;
+    width: 45%;
+  }
+}
+
+.heading {
+  @media (min-width: 500px) {
+    font-size: 3em;
+  }
+}
+
+.subheading {
+  font-size: 0.8em;
 }

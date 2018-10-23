@@ -5,7 +5,7 @@ import { SkillsList } from "../SkillsList";
 export class SkillsSection extends React.Component {
   render() {
     return (
-      <div>
+      <div id="skills">
         <SectionHeader
           headingText="Skills"
           subheadingText="What I've Worked With"
