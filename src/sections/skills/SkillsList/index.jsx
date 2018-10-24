@@ -39,9 +39,5 @@ const renderLists = () => {
 };
 
 export const SkillsList = () => {
-  return (
-    <div className={styles.container}>
-      <div>{renderLists()}</div>
-    </div>
-  );
+  return <div className={styles.container}>{renderLists()}</div>;
 };

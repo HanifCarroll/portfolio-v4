@@ -5,23 +5,29 @@ export const AboutText = () => {
   return (
     <div className={styles.container}>
       <p>
-        I started programming in March of 2017 after deciding that physical
-        therapy school wasn’t going to be for me. It began with Python
-        scripting, but my eyes were quickly drawn to web development.
+        Though I don't shy away from back-end development, I'm primarily
+        captivated by front-end endeavors. I have great admiration for talented
+        artists and designers. Therefore, my number one priority is to make
+        beautiful, highly functional applications and websites, no matter the
+        project content. ReactJS and NodeJS have been my primary tools of
+        choice, but I gladly welcome the challenge of learning any new
+        tech-stack.
       </p>
 
       <p>
-        Through the help of such resources as CodeAcademy, FreeCodeCamp, and
-        Udemy, I journeyed through what seemed like endless new terms,
-        technologies, and syntax. Thankfully, programming quickly became a
-        passion of mine that I didn’t mind spending hours upon hours learning
-        about!
+        Being relatively early in my career, there are many areas and
+        technologies relating to software development that I have interest in
+        perusing. Obviously, this isn't something that can be done during work
+        hours. For that reason, I'm a big believer in spending a good portion of
+        my free time to master my "work-stack", so that I can spend some free
+        time exploring those aforementioned uncharted territories.
       </p>
 
       <p>
-        Fast forward to today: I’m on the lookout for my first full-time
-        position, where I can not only learn and develop my skills, but I can
-        also contribute my time and energy to a cause that I believe in.
+        But programming isn't all that I'm interested in! I love lifting
+        weights, playing ultimate frisbee, meeting people, talking about ideas,
+        and being out in nature. Overall, I'm a genuinely positive guy that's
+        looking to leave a lasting, positive impact on the world around him.
       </p>
     </div>
   );

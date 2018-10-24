@@ -26,8 +26,8 @@ export class Project extends React.Component {
           src={image}
           alt={`Screenshot of ${title}`}
         />
-        <CardBody>
-          <CardTitle>{title}</CardTitle>
+        <CardBody className={styles.body}>
+          <CardTitle className={styles.title}>{title}</CardTitle>
           <CardText className={styles.description}>{description}</CardText>
           {this.renderButtons()}
         </CardBody>

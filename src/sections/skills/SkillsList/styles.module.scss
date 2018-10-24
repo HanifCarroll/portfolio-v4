@@ -1,26 +1,20 @@
 .container {
-  border: 2px solid black;
   font-size: 1.5em;
   line-height: 2;
 }
 
 .notes {
   @media (min-width: 700px) {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .list {
-  border: 2px solid black;
   margin: 20px 0px;
   vertical-align: top;
   color: rgb(100, 100, 100);
   text-align: center;
-
-  @media (min-width: 700px) {
-    margin: 0 auto;
-  }
 }
 
 ul {

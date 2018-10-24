@@ -7,7 +7,7 @@ export class AboutSection extends React.Component {
   render() {
     return (
       <div id="about" className={styles.container}>
-        <SectionHeader headingText="About" subheadingText="My Journey" />
+        <SectionHeader headingText="About" subheadingText="Who I Am" />
         <AboutText />
       </div>
     );

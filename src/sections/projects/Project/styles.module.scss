@@ -1,8 +1,11 @@
 .card {
   margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
 
   @media (min-width: 700px) {
     text-align: center;
+    border: none;
   }
 }
 
@@ -19,10 +22,21 @@
   }
 }
 
+.body {
+  border-top: 2px solid black;
+
+  @media (min-width: 700px) {
+    border: none;
+  }
+}
+
 .title {
+  font-size: 1.4em;
 }
 
 .description {
+  font-size: 1.2em;
+
   @media (min-width: 700px) {
     width: 50%;
     margin: 0 auto 30px auto;
