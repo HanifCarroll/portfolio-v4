@@ -1,21 +1,36 @@
 .card {
   margin-bottom: 30px;
+
+  @media (min-width: 700px) {
+    text-align: center;
+  }
 }
-img {
-  margin-bottom: 30px;
+
+.image {
+  margin: 0 auto;
+  object-fit: cover;
+  max-width: 80%;
+
+  @media (min-width: 700px) {
+    max-width: 50%;
+  }
+  @media (min-width: 1000px) {
+    max-width: 40%;
+  }
 }
 
 .title {
 }
 
 .description {
-  line-height: 2;
-  margin: 0 auto;
-  width: 50%;
+  @media (min-width: 700px) {
+    width: 50%;
+    margin: 0 auto 30px auto;
+  }
 }
 
 .content-container {
 }
 
-.button-container:nth-child(0) {
+.button-container {
 }

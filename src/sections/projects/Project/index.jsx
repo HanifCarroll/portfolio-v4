@@ -19,11 +19,16 @@ export class Project extends React.Component {
     const { title, description, image } = this.props;
 
     return (
-      <Card className={styles.card}>
-        <CardImg top width="100%" src={image} alt={`Screenshot of ${title}`} />
+      <Card className={styles.card} outline color="dark">
+        <CardImg
+          top
+          className={title === "Pick My Eats - Android" ? styles.image : null}
+          src={image}
+          alt={`Screenshot of ${title}`}
+        />
         <CardBody>
           <CardTitle>{title}</CardTitle>
-          <CardText>{description}</CardText>
+          <CardText className={styles.description}>{description}</CardText>
           {this.renderButtons()}
         </CardBody>
       </Card>

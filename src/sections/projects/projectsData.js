@@ -16,6 +16,13 @@ export const projectsData = [
     url: "https://play.google.com/store/apps/details?id=com.hanifc.PickMyEats"
   },
   {
+    description: "A Google Keep inspired note-taking app.",
+    github: "https://github.com/HanifCarroll/notes",
+    image: require("./images/notes.png"),
+    title: "Notes App",
+    url: "https://hcnotes.netlify.com"
+  },
+  {
     description:
       "Search through and sort customer data with a clean interface.",
     github: "https://github.com/HanifCarroll/Customer-Table",
@@ -38,12 +45,5 @@ export const projectsData = [
     image: require("./images/burgerbar.png"),
     title: "Fake Burger Restaurant Homepage",
     url: "https://fake-burger-site.tk/"
-  },
-  {
-    description: "A Google Keep inspired note-taking app.",
-    github: "https://github.com/HanifCarroll/notes",
-    image: require("./images/notes.png"),
-    title: "Notes App",
-    url: "https://hcnotes.netlify.com"
   }
 ];

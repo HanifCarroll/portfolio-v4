@@ -20,8 +20,8 @@ export class Header extends React.Component {
   render() {
     return (
       <Navbar
+        id="nav"
         className={styles.navigation}
-        class="nav"
         color="dark"
         fixed="top"
         dark
@@ -44,9 +44,6 @@ export class Header extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink href="#projects">Projects</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/HanifCarroll">Github</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#contact">Contact</NavLink>

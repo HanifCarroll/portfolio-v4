@@ -4,7 +4,7 @@ import { Jumbotron } from "reactstrap";
 export class HomeSection extends React.Component {
   render() {
     return (
-      <Jumbotron className={styles.container}>
+      <Jumbotron id="home" className={styles.container}>
         <div className={styles["image-container"]}>
           <img
             className="img-fluid"

@@ -18,7 +18,7 @@ const other = ["Git", "REST", "AJAX", "Jira"];
 const renderList = (heading, list) => {
   return (
     <div className={styles.list}>
-      <h3>{heading}</h3>
+      <h3 className={styles.heading}>{heading}</h3>
       <ul>
         {list.map(item => (
           <li key={item}>{item}</li>
@@ -30,11 +30,11 @@ const renderList = (heading, list) => {
 
 const renderLists = () => {
   return (
-    <>
+    <div className={styles.notes}>
       {renderList("Languages", languages)}
       {renderList("Frameworks", frameworks)}
       {renderList("Other", other)}
-    </>
+    </div>
   );
 };
 
