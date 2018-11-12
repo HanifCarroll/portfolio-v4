@@ -1,0 +1,10 @@
+.tag {
+  border-radius: 8px;
+  // border: 2px solid black;
+  margin-right: 5px;
+  // padding: 5px 10px;
+  width: 40%;
+  @media (min-width: 700px) {
+    width: 30%;
+  }
+}

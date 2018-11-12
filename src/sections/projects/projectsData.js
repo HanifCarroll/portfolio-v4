@@ -6,6 +6,7 @@ export const projectsData = [
     image: require("./images/media-log.png"),
     title: "Discord Media Logger",
     url: "http://discord-media-log.s3-website.us-east-2.amazonaws.com/",
+    tags: ["Python", "Django", "JavaScript", "React", "HTML", "CSS"],
   },
   {
     description:
@@ -14,6 +15,7 @@ export const projectsData = [
     image: require("./images/pme.png"),
     title: "Pick My Eats",
     url: "https://play.google.com/store/apps/details?id=com.hanifc.PickMyEats",
+    tags: ["React Native", "Android", "JavaScript", "Firebase", "CSS"],
   },
   {
     description: "A Google Keep inspired note-taking app.",
@@ -21,6 +23,7 @@ export const projectsData = [
     image: require("./images/notes.png"),
     title: "Notes App",
     url: "https://hcnotes.netlify.com",
+    tags: ["JavaScript", "React", "HTML", "CSS"],
   },
   {
     description:
@@ -29,6 +32,7 @@ export const projectsData = [
     image: require("./images/customer-table.png"),
     title: "Customer Table Search",
     url: "https://customer-table.netlify.com/",
+    tags: ["JavaScript", "React", "HTML", "CSS"],
   },
   {
     description:
@@ -37,6 +41,7 @@ export const projectsData = [
     image: require("./images/gallery.png"),
     title: "Image Gallery",
     url: "http://hc-imgs.herokuapp.com/",
+    tags: ["JavaScript", "React", "HTML", "CSS"],
   },
 
   {
@@ -46,5 +51,6 @@ export const projectsData = [
     image: require("./images/burgerbar.jpg"),
     title: "Fake Burger Restaurant Homepage",
     url: "https://fake-burger-site.tk/",
+    tags: ["WordPress", "HTML", "CSS"],
   },
 ];

@@ -34,4 +34,12 @@
 
 .title {
   font-size: 1.5em;
+  margin: 0;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 70%;
 }

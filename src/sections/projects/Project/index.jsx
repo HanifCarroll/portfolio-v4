@@ -1,8 +1,19 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import { ProjectButton } from "components";
+import { Tag } from "../../../components/Tag";
 
 export class Project extends React.Component {
+  renderTags = () => {
+    return (
+      <div className={styles.tags}>
+        {this.props.tags.map(tag => (
+          <Tag name={tag} />
+        ))}
+      </div>
+    );
+  };
+
   renderButtons = () => {
     const { url, github } = this.props;
 
@@ -26,6 +37,7 @@ export class Project extends React.Component {
       >
         <div className={styles.overlay}>
           <p className={styles.title}>{title}</p>
+          {this.renderTags()}
           {this.renderButtons()}
         </div>
         <img className={styles.image} src={image} alt={title} />

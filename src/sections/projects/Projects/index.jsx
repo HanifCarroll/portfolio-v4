@@ -17,6 +17,7 @@ export class Projects extends React.Component {
         image={project.image}
         url={project.url}
         github={project.github}
+        tags={project.tags}
       />
     ));
   };
