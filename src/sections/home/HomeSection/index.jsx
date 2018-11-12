@@ -13,9 +13,8 @@ export class HomeSection extends React.Component {
           />
         </div>
         <div className={styles["text-container"]}>
-          <h1 className={styles.heading}>Hanif Carroll</h1>
-
-          <p className={styles.subheading}>Passionate Programmer</p>
+          <h1 className={styles.heading}>Hanif </h1>
+          <h1 className={styles.heading}>Carroll</h1>
         </div>
       </Jumbotron>
     );
