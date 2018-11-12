@@ -1,41 +1,20 @@
 import React from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 import styles from "./styles.module.scss";
-import { ProjectButton } from "components";
 
 export class Project extends React.Component {
-  renderButtons = () => {
-    const { url, github } = this.props;
-
+  render() {
     return (
-      <div className={styles["button-container"]}>
-        <ProjectButton text="View" url={url} />
-        {github && <ProjectButton text="Github" url={github} />}
+      <div className={styles.container}>
+        <img
+          className={
+            this.props.title === "Pick My Eats - Android"
+              ? styles.portrait
+              : null
+          }
+          src={this.props.image}
+          alt={this.props.title}
+        />
       </div>
     );
-  };
-
-  renderCard = () => {
-    const { title, description, image } = this.props;
-
-    return (
-      <Card className={styles.card} outline color="dark">
-        <CardImg
-          top
-          className={title === "Pick My Eats - Android" ? styles.image : null}
-          src={image}
-          alt={`Screenshot of ${title}`}
-        />
-        <CardBody className={styles.body}>
-          <CardTitle className={styles.title}>{title}</CardTitle>
-          <CardText className={styles.description}>{description}</CardText>
-          {this.renderButtons()}
-        </CardBody>
-      </Card>
-    );
-  };
-
-  render() {
-    return <div>{this.renderCard()}</div>;
   }
 }

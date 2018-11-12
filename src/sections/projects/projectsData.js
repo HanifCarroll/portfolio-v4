@@ -5,22 +5,14 @@ export const projectsData = [
     github: "https://github.com/HanifCarroll/Media-Log",
     image: require("./images/media-log.png"),
     title: "Discord Media Logger",
-    url: "http://discord-media-log.s3-website.us-east-2.amazonaws.com/"
-  },
-  {
-    description:
-      "Built using React Native. Users review a list of restaurants and choose ones that look appealing. Afterwards, one is randomly chosen by the app to eat at. No more fuss about deciding where to eat!",
-    github: "https://github.com/HanifCarroll/pick-my-eats-mobile",
-    image: require("./images/pme.png"),
-    title: "Pick My Eats - Android",
-    url: "https://play.google.com/store/apps/details?id=com.hanifc.PickMyEats"
+    url: "http://discord-media-log.s3-website.us-east-2.amazonaws.com/",
   },
   {
     description: "A Google Keep inspired note-taking app.",
     github: "https://github.com/HanifCarroll/notes",
     image: require("./images/notes.png"),
     title: "Notes App",
-    url: "https://hcnotes.netlify.com"
+    url: "https://hcnotes.netlify.com",
   },
   {
     description:
@@ -28,22 +20,30 @@ export const projectsData = [
     github: "https://github.com/HanifCarroll/Customer-Table",
     image: require("./images/customer-table.png"),
     title: "Customer Table Search",
-    url: "https://customer-table.netlify.com/"
+    url: "https://customer-table.netlify.com/",
   },
   {
     description:
       "A gallery application showcasing photos of mine. Features a simple grid view as well as a slideshow mode.",
     github: "https://github.com/HanifCarroll/image-gallery-react",
-    image: require("./images/gallery.jpg"),
+    image: require("./images/gallery.png"),
     title: "Image Gallery",
-    url: "http://hc-imgs.herokuapp.com/"
+    url: "http://hc-imgs.herokuapp.com/",
   },
   {
     description:
       "Homepage for a fake burger restaurant.  This project and this portfolio website that you’re currently reading are the beginnings of my journey into design!",
     github: "",
-    image: require("./images/burgerbar.png"),
+    image: require("./images/burgerbar.jpg"),
     title: "Fake Burger Restaurant Homepage",
-    url: "https://fake-burger-site.tk/"
-  }
+    url: "https://fake-burger-site.tk/",
+  },
+  {
+    description:
+      "Built using React Native. Users review a list of restaurants and choose ones that look appealing. Afterwards, one is randomly chosen by the app to eat at. No more fuss about deciding where to eat!",
+    github: "https://github.com/HanifCarroll/pick-my-eats-mobile",
+    image: require("./images/pme.jpg"),
+    title: "Pick My Eats - Android",
+    url: "https://play.google.com/store/apps/details?id=com.hanifc.PickMyEats",
+  },
 ];

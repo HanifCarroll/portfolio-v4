@@ -5,25 +5,23 @@ import styles from "./styles.module.scss";
 
 export class Projects extends React.Component {
   state = {
-    projects: projectsData
+    projects: projectsData,
   };
 
   renderProjects = () => {
     return this.state.projects.map(project => (
-      <div key={project.title} className={styles.container}>
-        <Project
-          key={project.title}
-          title={project.title}
-          description={project.description}
-          image={project.image}
-          url={project.url}
-          github={project.github}
-        />
-      </div>
+      <Project
+        key={project.title}
+        title={project.title}
+        description={project.description}
+        image={project.image}
+        url={project.url}
+        github={project.github}
+      />
     ));
   };
 
   render() {
-    return this.renderProjects();
+    return <div className={styles.container}>{this.renderProjects()}</div>;
   }
 }
