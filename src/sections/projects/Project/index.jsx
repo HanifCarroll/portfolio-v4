@@ -5,15 +5,7 @@ export class Project extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <img
-          className={
-            this.props.title === "Pick My Eats - Android"
-              ? styles.portrait
-              : null
-          }
-          src={this.props.image}
-          alt={this.props.title}
-        />
+        <img src={this.props.image} alt={this.props.title} />
       </div>
     );
   }

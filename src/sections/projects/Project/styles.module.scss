@@ -1,5 +1,4 @@
 .container {
-  border: 2px solid black;
   @media (min-width: 700px) {
     width: 50%;
   }
@@ -7,13 +6,4 @@
 
 img {
   width: 100%;
-  @media (min-width: 700px) {
-    max-height: 300px;
-  }
-}
-
-.portrait {
-  @media (min-width: 700px) {
-    max-height: 100%;
-  }
 }
