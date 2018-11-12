@@ -12,7 +12,7 @@ export const projectsData = [
       "Built using React Native. Users review a list of restaurants and choose ones that look appealing. Afterwards, one is randomly chosen by the app to eat at. No more fuss about deciding where to eat!",
     github: "https://github.com/HanifCarroll/pick-my-eats-mobile",
     image: require("./images/pme.png"),
-    title: "Pick My Eats - Android",
+    title: "Pick My Eats",
     url: "https://play.google.com/store/apps/details?id=com.hanifc.PickMyEats",
   },
   {

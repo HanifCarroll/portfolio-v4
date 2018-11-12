@@ -1,26 +1,34 @@
 import React from "react";
 import styles from "./styles.module.scss";
+import { ProjectButton } from "components";
 
 export class Project extends React.Component {
+  renderButtons = () => {
+    const { url, github } = this.props;
+
+    return (
+      <div className={styles.buttonContainer}>
+        <ProjectButton text="View" url={url} />
+        {github && <ProjectButton text="Github" url={github} />}
+      </div>
+    );
+  };
+
   render() {
+    const { title, image } = this.props;
+
     return (
       <div
         className={styles.container}
         style={{
-          background: `url(${this.props.image}) center center/cover`,
+          background: `url(${image}) center center/cover`,
         }}
       >
         <div className={styles.overlay}>
-          <p>Test</p>
-          <p>Test</p>
-          <p>Test</p>
-          <p>Test</p>
+          <p className={styles.title}>{title}</p>
+          {this.renderButtons()}
         </div>
-        <img
-          className={styles.image}
-          src={this.props.image}
-          alt={this.props.title}
-        />
+        <img className={styles.image} src={image} alt={title} />
       </div>
     );
   }
