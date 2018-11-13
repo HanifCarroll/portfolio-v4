@@ -8,7 +8,7 @@ export class Project extends React.Component {
     return (
       <div className={styles.tags}>
         {this.props.tags.map(tag => (
-          <Tag name={tag} />
+          <Tag name={tag} key={tag} />
         ))}
       </div>
     );
