@@ -1,27 +1,26 @@
 .container {
-  margin: 125px 0 100px 0;
-  display: grid;
-  grid-template-columns: 1fr;
+  margin: 175px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  text-align: center;
 }
 
-img {
+.profilePic {
   margin: 0 auto 25px auto;
   border-radius: 50%;
   width: 200px;
   box-shadow: rgb(211, 211, 211) 0px 4px 6px 2px;
 }
 
-.textContainer {
-  text-align: center;
-}
-
 .heading {
   color: rgb(59, 59, 59);
-  font-family: "Rubik", serif;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 0;
 }
 
 .subheading {
   color: rgb(78, 77, 77);
-  font-family: "Rubik", serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.1em;
 }

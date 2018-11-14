@@ -4,7 +4,6 @@ import {
   AboutSection,
   SkillsSection,
   ProjectsSection,
-  ContactSection,
 } from "sections";
 import { Footer, Header, Divider } from "components";
 import { Container } from "reactstrap";
@@ -33,7 +32,6 @@ class App extends Component {
           <SkillsSection />
           <Divider />
           <ProjectsSection />
-          <ContactSection />
         </Container>
         <Footer />
       </div>

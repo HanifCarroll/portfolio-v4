@@ -7,7 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
 } from "reactstrap";
 
 export class Header extends React.Component {
@@ -44,9 +44,6 @@ export class Header extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink href="#projects">Projects</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
