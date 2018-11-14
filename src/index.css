@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.App {
+  background-color: rgb(241, 237, 231);
+}
+
 a {
   text-decoration: none;
 }

@@ -6,7 +6,6 @@ import {
   ProjectsSection,
 } from "sections";
 import { Footer, Header, Divider } from "components";
-import { Container } from "reactstrap";
 
 class App extends Component {
   componentDidMount() {
@@ -25,14 +24,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Container>
-          <HomeSection />
-          <AboutSection />
-          <Divider />
-          <SkillsSection />
-          <Divider />
-          <ProjectsSection />
-        </Container>
+        <HomeSection />
+        <AboutSection />
+        <Divider />
+        <SkillsSection />
+        <Divider />
+        <ProjectsSection />
         <Footer />
       </div>
     );
