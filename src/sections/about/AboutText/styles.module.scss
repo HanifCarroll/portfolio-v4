@@ -1,9 +1,11 @@
 .container {
-  margin: 0 auto;
-  padding-bottom: 10px;
-  line-height: 2;
+  color: rgb(68, 68, 68);
   width: 90%;
-
+  margin: 0 auto;
   font-size: 1.2em;
-  color: rgba(31, 31, 31, 0.8);
+  line-height: 2;
+
+  @media (min-width: 700px) {
+    width: 60%;
+  }
 }
