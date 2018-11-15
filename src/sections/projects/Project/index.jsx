@@ -19,7 +19,7 @@ export class Project extends React.Component {
 
     return (
       <div className={styles.buttonContainer}>
-        <ProjectButton text="View" url={url} />
+        {url && <ProjectButton text="View" url={url} />}
         {github && <ProjectButton text="Github" url={github} />}
       </div>
     );

@@ -5,7 +5,6 @@ export const projectsData = [
     github: "https://github.com/HanifCarroll/Media-Log",
     image: require("./images/media-log.png"),
     title: "Discord Media Logger",
-    url: "http://discord-media-log.s3-website.us-east-2.amazonaws.com/",
     tags: ["Python", "Django", "JavaScript", "React", "HTML", "CSS"],
   },
   {
