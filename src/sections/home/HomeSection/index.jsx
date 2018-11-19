@@ -5,7 +5,7 @@ import { SocialIcons } from "../../../components/SocialIcons/index";
 export class HomeSection extends React.Component {
   render() {
     return (
-      <div className={styles.container}>
+      <div id="home" className={styles.container}>
         <img
           className={styles.profilePic}
           src={require("../profile.jpg")}
