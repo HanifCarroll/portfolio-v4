@@ -10,13 +10,12 @@ export const AboutText = () => {
         applications and websites, no matter the project content.
       </p>
       <p>
-        ReactJS and NodeJS have been my primary tools of choice, but I gladly
-        welcome the challenge of learning any new tech-stack.
+        ReactJS and NodeJS have been my primary tools of choice, but I am also
+        comfortable completing tasks with Java and Python.
       </p>
       <p>
         Aside from practicing and learning about programming, I'm interested in
-        fitness, photography, meeting new people, the german language, and being
-        out in nature.
+        fitness, photography, people, the german language, and nature.
       </p>
     </div>
   );
