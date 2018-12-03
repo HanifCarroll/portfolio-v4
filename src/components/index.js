@@ -1,4 +1,5 @@
-export * from "./ProjectButton";
+export * from "./GithubButton";
+export * from "./ViewButton";
 export * from "./SocialIcons";
 export * from "./SectionHeader";
 export * from "./Header";

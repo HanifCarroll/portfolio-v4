@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { ProjectButton } from "components";
-import { Tag } from "../../../components/Tag";
+import { GithubButton, ViewButton, Tag } from "components";
 
 export class Project extends React.Component {
   renderTags = () => {
@@ -19,8 +18,8 @@ export class Project extends React.Component {
 
     return (
       <div className={styles.buttonContainer}>
-        {url && <ProjectButton text="View" url={url} />}
-        {github && <ProjectButton text="Github" url={github} />}
+        {github && <GithubButton url={github} />}
+        {url && <ViewButton url={url} />}
       </div>
     );
   };

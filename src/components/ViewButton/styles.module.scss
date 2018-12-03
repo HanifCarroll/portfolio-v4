@@ -1,0 +1,21 @@
+.view {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 2px solid #0064ce;
+  color: #0064ce;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.8em;
+
+  @media (min-width: 700px) {
+    margin: 0 20px;
+    padding: 10px 25px;
+    font-size: 1em;
+  }
+
+  &:hover {
+    background-color: #0064ce;
+    color: white;
+    // border-color: white;
+  }
+}
