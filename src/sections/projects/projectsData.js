@@ -52,4 +52,13 @@ export const projectsData = [
     url: "https://fake-burger-site.tk/",
     tags: ["WordPress", "HTML", "CSS"],
   },
+  {
+    description:
+      "A stopwatch application that allows the user to add and remove multiple, independent stopwatch instances.",
+    github: "https://github.com/HanifCarroll/stopwatch",
+    image: require("./images/stopwatch.png"),
+    title: "Time-It!",
+    url: "https://hc-stopwatch.netlify.com",
+    tags: ["HTML", "CSS", "JavaScript"],
+  },
 ];
