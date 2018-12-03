@@ -54,6 +54,15 @@ export const projectsData = [
   },
   {
     description:
+      "A small web application that gives the sunrise, solar noon, and sunset times for a given location on a given date.",
+    github: "https://github.com/HanifCarroll/sun-times",
+    image: require("./images/suntimes.png"),
+    title: "Sun Times",
+    url: "https://suntimes.netlify.com",
+    tags: ["JavaScript", "React", "HTML", "CSS"],
+  },
+  {
+    description:
       "A stopwatch application that allows the user to add and remove multiple, independent stopwatch instances.",
     github: "https://github.com/HanifCarroll/stopwatch",
     image: require("./images/stopwatch.png"),
